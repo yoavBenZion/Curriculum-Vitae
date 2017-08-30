@@ -1,0 +1,105 @@
+.portfolio {
+  max-width: 500px;
+/*  height: 400px;*/
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
+  grid-template-rows: 4fr 8fr 4fr 3fr 1.6fr;
+  grid-template-areas:
+    "aside-top squre "
+    "large-squre large-squre"
+    "aside-bottem aside-bottem"
+    "box box"
+    "footer footer"
+    ;
+}
+
+ .aside-top {
+  grid-area: aside-top;
+  padding: 5px;
+  background-color: lightslategray;
+}
+
+.squre {
+  grid-area: squre;
+  padding: 5px;
+/*  background-color: lightblue;*/
+}
+
+.large-squre {
+  grid-area: large-squre;
+  padding: 5px;
+  background-color: lightcoral;
+}
+
+.aside-bottem {
+  grid-area: aside-bottem;
+  padding: 5px;
+  background-color: lightgreen;
+}
+
+.box {
+  grid-area: box;
+  padding: 5px;
+  background-color: lightgray;
+}
+
+.footer {
+  grid-area: footer;
+  padding: 5px;
+  background-color: lightslategrey;
+}
+
+
+@media screen and (min-width: 650px) {
+
+.portfolio {
+  max-width: 970px;
+  margin: 5px auto;
+  padding: 5px 10px;
+  display: grid;
+  height: 500px;
+  grid-template-columns: 1fr 1fr 1fr 1fr ;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr ;
+  grid-gap: 0.7em;
+  grid-template-areas:
+    "squre large-squre large-squre aside-top"
+    "squre large-squre large-squre aside-top"
+    "box large-squre large-squre aside-bottem"
+    "box large-squre large-squre aside-bottem"
+    "footer footer footer aside-bottem"
+    ;
+}
+
+.squre {
+  grid-area: squre;
+/*  background-color: lightblue;*/
+}
+  
+.large-squre {
+  grid-area: large-squre;
+  background-color: lightcoral;
+}
+
+.aside-top {
+  grid-area: aside-top;
+  background-color: lightslategray;
+}
+
+.aside-bottem {
+  grid-area: aside-bottem;
+  background-color: lightgreen;
+}
+
+.box {
+  grid-area: box;
+  background-color: lightgray;
+}
+
+.footer {
+  grid-area: footer;
+  background-color: lightslategrey;
+}
+  
+}

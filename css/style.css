@@ -1,0 +1,98 @@
+@import url(http://fonts.googleapis.com/earlyaccess/alefhebrew.css);
+
+
+body {
+  font-family:  "Alef Hebrew", sans-serif;
+  margin: 0 auto;
+  background-color: #343038;
+  color: #fff;
+  font-size: 1.5rem;
+}
+
+header, nav {
+  display: flex;
+  flex-direction: column;
+}
+
+p {
+  font-size: 1.3rem;
+  color: #000;
+}
+
+nav {
+/*  width: 250px;*/
+  margin: 0 auto;
+  text-align: center;
+}
+
+.logo {
+  margin: 20px;
+}
+
+nav > a {
+  color: blanchedalmond;
+  text-decoration: none;
+  padding: 10px;
+}
+
+
+
+.main-content {
+  background-color: #fff;
+  margin: 0 auto;
+  padding-top: 5px;
+}
+
+span,
+.active  {
+  color: #B0AFAA;
+}
+
+
+/*CV*/
+
+img {
+  max-width: 160px;
+  margin: 5px auto;
+}
+
+.summery {
+  font-size: 0.9rem;
+  color: #000;
+}
+
+.large-squre > .work-h {
+  font-size: 0.9rem;
+  display: inline-block;
+  margin: 3px auto 0;
+  border-bottom: 1px solid #fff;
+}
+
+.large-squre > .work-y {
+  margin: 0 auto;
+  font-size: 0.8rem;
+  color: #000;
+}
+
+.large-squre > .work-d {
+  margin: 5px auto;
+  font-size: 0.95rem;
+}
+
+.footer > .skill {
+  display: inline-block;
+  border-radius: 13%;
+  border: 1px solid purple;
+  padding: 0 1px;
+  font-size: 1rem;
+  margin-left: 6px;
+}
+
+ol>li {
+  font-size: 1rem;
+  margin-left: -20px;
+  color: #000;
+  margin-top: 8px;
+}
+
+
