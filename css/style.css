@@ -6,7 +6,7 @@ body {
   margin: 0 auto;
   background-color: #343038;
   color: #fff;
-  font-size: 1.5rem;
+  font-size: 2.5rem;
 }
 
 header, nav {
@@ -15,7 +15,7 @@ header, nav {
 }
 
 p {
-  font-size: 1.3rem;
+  font-size: 2.3rem;
   color: #000;
 }
 
@@ -52,17 +52,18 @@ span,
 /*CV*/
 
 img {
-  max-width: 160px;
-  margin: 5px auto;
+  max-width: 100%;
+  margin: 2px -2px -6px;
+  padding: 3px;
 }
 
 .summery {
-  font-size: 0.9rem;
+  font-size: 1.6rem;
   color: #000;
 }
 
 .large-squre > .work-h {
-  font-size: 0.9rem;
+  font-size: 1.8rem;
   display: inline-block;
   margin: 3px auto 0;
   border-bottom: 1px solid #fff;
@@ -70,13 +71,13 @@ img {
 
 .large-squre > .work-y {
   margin: 0 auto;
-  font-size: 0.8rem;
+  font-size: 1.5rem;
   color: #000;
 }
 
 .large-squre > .work-d {
   margin: 5px auto;
-  font-size: 0.95rem;
+  font-size: 1.6rem;
 }
 
 .footer > .skill {
@@ -84,15 +85,18 @@ img {
   border-radius: 13%;
   border: 1px solid purple;
   padding: 0 1px;
-  font-size: 1rem;
+  font-size: 1.6rem;
   margin-left: 6px;
 }
 
 ol>li {
-  font-size: 1rem;
-  margin-left: -20px;
+  font-size: 1.6rem;
+/*  margin-left: -20px;*/
   color: #000;
   margin-top: 8px;
 }
 
 
+.bottom-footers > p {
+/*  margin-top: 20px;*/
+}

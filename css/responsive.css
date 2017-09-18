@@ -1,6 +1,6 @@
 /*Responsive design*/
 
-@media screen and (min-width: 650px){
+@media screen and (min-width: 1000px){
   
   body {
     font-size: 1.2rem;
@@ -18,6 +18,10 @@
 .nav-item {
   margin-left: 50px;
 }
+  img {
+    height: 180px;
+    margin: 2px auto;
+  }
   
 }
 
